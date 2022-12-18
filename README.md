@@ -7,7 +7,7 @@
 Motherboard: Gigabyte Z390 Gaming X
 Processor: Intel i9-9900K @ 5Ghz
 OpenCore: 0.8.7
-SMBIOS: 19.1
+SMBIOS: iMac19.1
 Monitor: Dual 4k Monitor
 RAM: G.SKILL RIPJAWS (8G + 8G + 16G + 16G) 48GB 3200 DDR4
 HDD: SSD 4T Cosair MX500
