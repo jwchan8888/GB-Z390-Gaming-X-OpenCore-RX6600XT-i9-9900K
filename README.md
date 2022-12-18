@@ -5,6 +5,7 @@
 ## Specs:
 ```
 Motherboard: Gigabyte Z390 Gaming X
+Processor: Intel i9-9900K @ 5Ghz
 OpenCore: 0.8.7
 SMBIOS: 19.1
 Monitor: Dual 4k Monitor
@@ -35,7 +36,7 @@ IGP has been set to 1.2Ghz
 - Advanced Mode > Settings > Above 4G Decoding > Enabled
 - Advanced Mode > Settings > USB Configuration > XHCI Hand-off > Enabled
 - Advanced Mode > Boot > CSM Support > Disabled
-
-optional (if using 9900K processor)
-- [Overclock to 5Ghz] (https://www.gigabyte.com/FileUpload/Global/multimedia/2/file/525/946.pdf)
 ```
+optional (if using 9900K processor)
+- Overclock to 5Ghz [Tips](https://www.gigabyte.com/FileUpload/Global/multimedia/2/file/525/946.pdf)
+
