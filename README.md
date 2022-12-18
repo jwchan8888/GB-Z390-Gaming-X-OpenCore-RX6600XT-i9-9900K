@@ -13,12 +13,29 @@ HDD: SSD 4T Cosair MX500
 OSX: OSX Ventura 13.0.1
 GFX: XFX RX6600XT QUICKSILVER 308
 WIFI/BT: BCM94360CD
+
+USB has been set to 15 ports.
+IGP has been set to 1.2Ghz
 ```
 ## How to use:
 ```
+0. Make sure BIOS is setup correctly (see below)
 1. Download whole EFI and copy to your EFI partition
 2. Update MLB, ROM, UUID, Serial to YOUR OWN. You can use OpenCore Configurator to generate for you.
 3. Save and Reboot.
 ```
 
 ![Screenshot 2022-12-19 at 00 45 02](https://user-images.githubusercontent.com/29648161/208309994-a720a068-0814-4c61-828c-0fbf9622579d.png)
+
+## Bios:
+```
+- IGP Enabled 
+- CFG Lock Disabled
+- Serial Port Disable
+- Advanced Mode > Settings > Above 4G Decoding > Enabled
+- Advanced Mode > Settings > USB Configuration > XHCI Hand-off > Enabled
+- Advanced Mode > Boot > CSM Support > Disabled
+
+optional (if using 9900K processor)
+- [Overclock to 5Ghz] (https://www.gigabyte.com/FileUpload/Global/multimedia/2/file/525/946.pdf)
+```
