@@ -16,8 +16,15 @@ GFX: XFX RX6600XT QUICKSILVER 308
 WIFI/BT: BCM94360CD
 
 USB has been set to 15 ports.
-IGP has been set to 1.2Ghz
+IGP has been set to 1.2Ghz igfxrpsc = 1 See WhateverGreen
 ```
+## ISSUES/FIXES:
+```
+1. Make XFX RX6600XT boot correctly. fixed
+2. wake from sleep needs two clicks to turn on monitor. Will hang occasionally. Fixed
+3. Bluetooth does not work well. Range is very limited even with Apple magic Mouse and Magic Keyboard.
+```
+
 ## How to use:
 ```
 0. Make sure BIOS is setup correctly (see below)
