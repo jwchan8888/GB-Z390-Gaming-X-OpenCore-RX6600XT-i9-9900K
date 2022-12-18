@@ -6,6 +6,8 @@ Specs:
 Motherboard: Gigabyte Z390 Gaming X
 OpenCore: 0.8.1
 Monitor: Dual 4k Monitor
-RAM: 48GB 3200 DDR4
+RAM: G.SKILL RIPJAWS (8G + 8G + 16G + 16G) 48GB 3200 DDR4
 HDD: SSD 4T Cosair MX500
 OSX: Venturs 13.0.1
+GFX: XFX RX6600XT QUICKSILVER 308
+WIFI/BT: BCM94360CD
