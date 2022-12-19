@@ -20,8 +20,8 @@ IGP has been set to 1.2Ghz igfxrpsc = 1 See WhateverGreen
 ```
 ## ISSUES/FIXES:
 ```
-1. Make XFX RX6600XT boot correctly. fixed
-2. wake from sleep needs two clicks to turn on monitor. Will hang occasionally. Fixed
+1. Make XFX RX6600XT boot correctly. Add bot-args agdpmod=pikera. fixed.
+2. wake from sleep needs two clicks to turn on monitor. Will hang occasionally. https://dortania.github.io/OpenCore-Post-Install/usb/misc/keyboard.html#method-1-add-wake-type-property-recommended. Method 1 and Method 2 Fixed.
 3. Bluetooth does not work well. Range is very limited even with Apple magic Mouse and Magic Keyboard.
 ```
 
